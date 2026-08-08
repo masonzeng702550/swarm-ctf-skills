@@ -1,0 +1,23 @@
+# 賽事執行期產物：絕不提交
+db/
+CTF_Records/
+*.sqlite
+*.db
+campaign.json
+
+# 機密
+.env
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / 編輯器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

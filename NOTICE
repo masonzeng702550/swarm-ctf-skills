@@ -1,0 +1,49 @@
+NOTICE
+======
+
+This project includes third-party material. The notices below are required by
+the licences of that material and must be preserved in redistribution.
+
+--------------------------------------------------------------------------
+references/ — CTF reference library
+--------------------------------------------------------------------------
+
+The entire contents of `references/` (107 technique reference files across 9
+categories, plus the `_CATEGORY_OVERVIEW.md` file in each category) are taken
+from:
+
+    ctf-skills
+    https://github.com/ljagiello/ctf-skills
+    Copyright (c) 2026 Lukasz Jagiello
+    Licensed under the MIT License
+
+The full upstream licence text is reproduced at `references/LICENSE.ctf-skills`
+and applies to everything under `references/`.
+
+Modifications made in this project:
+
+  - Files were relocated from `ctf-<category>/` to `references/<category>/`.
+  - Each category's `SKILL.md` was renamed to `_CATEGORY_OVERVIEW.md`.
+  - `references/INDEX.md` is generated from the above by
+    `tools/build_ref_index.py` and is therefore also derived from the upstream
+    content.
+
+No upstream text was removed or rewritten.
+
+--------------------------------------------------------------------------
+.claude/skills/ctf-writeup/SKILL.md
+--------------------------------------------------------------------------
+
+Derived from `ctf-writeup/SKILL.md` in the same upstream project (MIT,
+Copyright (c) 2026 Lukasz Jagiello), substantially rewritten for this
+project's swarm workflow. Roughly 54 of the original 139 lines are retained.
+
+--------------------------------------------------------------------------
+Original work
+--------------------------------------------------------------------------
+
+Everything else in this repository — the swarm orchestration layer
+(`.claude/skills/swarm-attack`, `swarm-status`, `ad-preflight`, `htb-attack`,
+`gmsa-takeover`, `wsus-mitm`), all coordinator/worker/specialist prompts under
+`prompts/`, and `tools/build_ref_index.py` — is original to this project and
+licensed under the terms in `LICENSE`.
